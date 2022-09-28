@@ -1,0 +1,145 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "l r" "f f";
+    justify-content: center;
+    align-content: center;
+}
+
+.left {
+    grid-area: l;
+    margin-top: 20px;
+    min-width: 420px;
+    min-height: 615px;
+}
+
+.right {
+    grid-area: r;
+    min-width: 420px;
+    min-height: 615px;
+}
+
+.footer {
+    grid-area: f;
+    justify-self: center;
+    text-align: center;
+    max-width: 780px;
+    font-size: 13px;
+    color:#8e8e8e;
+}
+
+
+.left .image-mobile {
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);    
+    min-width: 465px;
+    min-height: 635px;
+}
+
+.left img {
+    position: relative;
+    top: 24px;
+    left: 156px;
+}
+
+.footer .links{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.footer li a {
+    text-decoration: none;
+    padding: 5px;
+    color:#8e8e8e;
+}
+
+.box-form {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 50px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo-insta {
+    width: 175px;
+    padding: 25px;
+}
+
+.right input {
+    padding: 5px 15px;
+    min-width: 210px;
+    font-size: 15px;
+    background: #fafafa;
+    border: 2px solid #8e8e8e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.right button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 9px;
+    background: #a9dfff;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    min-width: 230px;
+}
+
+.right .divisor {   
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.right .divisor::before{
+    content: '_________';
+    padding: 10px;
+    position: relative;
+    top: -5px
+}
+
+.right .divisor::after{
+    content: '_________';
+    padding: 10px;
+    position: relative;
+    top: -5px
+}
+
+.right .login-facebook {
+    color: #374c89;
+    margin-bottom: 10px;
+}
+
+.right .redirect-password{
+    color: #374c89;
+    font-size: 12px;
+}
+
+.box-registration {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 25px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.registration {
+    color: #008eff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
