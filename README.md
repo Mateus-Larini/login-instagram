@@ -1,7 +1,7 @@
-# Aplicação de login
+# Login 
 "em andamento"
 
-Projeto com front e back-end
+Projeto com foco no front e back-end
 
 Objetivos: 
 - Cadastrar um novo usuário no "Instagram" e enviar os dados para o banco de dados.
