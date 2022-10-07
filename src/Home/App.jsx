@@ -1,32 +1,32 @@
 import './App.css'
-
 function App() {
-
   return (
     <div className='container'>
-
-        <div className='left'>
-            <div className='image-mobile'>
-              <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png" alt="" />
-            </div>
+      <div className='left'>
+        <div className='image-mobile'>
+          <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png" alt="" />
         </div>
+      </div>
 
-        <div className='right'> 
-            <div className='box-form'> 
-              <img className='logo-insta' src="https://logosmarcas.net/wp-content/uploads/2020/04/Instagram-Logo.png" alt="Instagram Image"/>
-            <div className='login-form'>
-              <input type="text" placeholder='Telefone, nome de usuário ou email' />
-            </div>
-            <div className='password-form'>
-              <input type="password" placeholder='Senha'/>
-            </div>
+      <div className='right'> 
+        <div className='box-form'> 
+          <img className='logo-insta' src="https://logosmarcas.net/wp-content/uploads/2020/04/Instagram-Logo.png" alt="Instagram Image"/>
+          <div className='login-form'>
+            <input type="text" placeholder='Telefone, nome de usuário ou email' />
+          </div>
+          <div className='password-form'>
+            <input type="password" placeholder='Senha'/>
+          </div>
             <button type="submit"> <a href="/mainpage">Entrar</a> </button>
             <p className='divisor'>OU</p>  
             <span className='login-facebook'>Entrar com o facebook</span>
             <a href="#" className='redirect-password'>Esqueceu sua senha?</a>
-            </div>
-            <div className='box-registration'>Não tem uma conta?<a href="/register">Cadastre-se!</a> </div>
         </div>
+          <div 
+            className='box-registration'>Não tem uma conta?<a href="/register">Cadastre-se!</a> 
+          </div>
+      </div>
+
         <div className='footer'> 
             <ul className="links">
               <li>

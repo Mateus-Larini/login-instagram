@@ -87,7 +87,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 10px 9px;
-    background: #a9dfff;
+    background: #81c3e9;
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -95,6 +95,9 @@
     min-width: 230px;
 }
 
+.right button a {
+    text-decoration: none;
+}
 .right .divisor {   
     color: #8e8e8e;
     font-size: 15px;
@@ -135,6 +138,12 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
+
+.box-registration a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #374c89
 }
 
 .registration {
