@@ -1,4 +1,5 @@
 import './App.css'
+import { Link } from 'react-router-dom'
 
 function App() {
 
@@ -20,12 +21,12 @@ function App() {
             <div className='password-form'>
               <input type="password" placeholder='Senha'/>
             </div>
-            <button type="submit">Entrar</button>
+            <button type="submit"> <Link to="/mainpage">Entrar</Link></button>
             <p className='divisor'>OU</p>  
             <span className='login-facebook'>Entrar com o facebook</span>
             <a href="#" className='redirect-password'>Esqueceu sua senha?</a>
             </div>
-            <div className='box-registration'>Não tem uma conta? <a href="#" className='registration'>Cadastre-se</a></div>
+            <div className='box-registration'>Não tem uma conta? <Link to='/register'>Cadastre-se!</Link></div>
         </div>
         <div className='footer'> 
             <ul className="links">
@@ -75,4 +76,5 @@ function App() {
     </div>
   )
 }
+
 export default App
