@@ -92,41 +92,12 @@
     border-radius: 5px;
     border: none;
     font-size: 15px;
-    min-width: 230px;
+    min-width: 250px;
+    cursor:pointer
 }
 
 .right button a {
     text-decoration: none;
-}
-.right .divisor {   
-    color: #8e8e8e;
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
-
-.right .divisor::before{
-    content: '_________';
-    padding: 10px;
-    position: relative;
-    top: -5px
-}
-
-.right .divisor::after{
-    content: '_________';
-    padding: 10px;
-    position: relative;
-    top: -5px
-}
-
-.right .login-facebook {
-    color: #374c89;
-    margin-bottom: 10px;
-}
-
-.right .redirect-password{
-    color: #374c89;
-    font-size: 12px;
 }
 
 .box-registration {
@@ -150,5 +121,10 @@
     color: #008eff;
     text-decoration: none;
     margin-top: 20px;
+}
+
+.login-form {
+    text-align: center;
+    margin-bottom: 10px;
 }
 

@@ -60,6 +60,19 @@
     font-size: 15px;
     color: #ffffff;
     margin-left: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+
+.errorEmail {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    font-size: 13px;
+}
+
+.errorPassword {
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    font-size: 13px;
 }
